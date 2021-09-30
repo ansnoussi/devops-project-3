@@ -74,7 +74,7 @@ gcloud container clusters get-credentials <CLUSTER NAME> --zone <CLUSTER CP LOCA
 
 8. Check you have access by running : `kubectl cluster-info`
 9. Create the `gitops-example` namespace : `kubectl create namespace gitops-example`
-10. After finishing withe the project : `terraform destroy` to delete the k8s cluster
+10. After finishing withe the project : `terraform destroy` to delete the k8s cluster and `kubectl config unset contexts` to remove the context from `kubectl`
 
 ## Secrets And Keys
 
