@@ -2,6 +2,15 @@
 
 GitOps example on GKE with Terraform, k8s, and Github actions
 
+
+## Repositories
+
+| Link                                                            | Description           |
+| --------------------------------------------------------------- | --------------------- |
+| [Repo Link](https://github.com/ansnoussi/gitops-example-app)    | Example GitOps App    |
+| [Repo Link](https://github.com/ansnoussi/gitops-example-deploy) | Example GitOps Deploy |
+| [Repo Link](https://github.com/ansnoussi/gitops-example-infra/) | Example GitOps Infra  |
+
 # Working Demo
 
 
@@ -32,13 +41,6 @@ https://user-images.githubusercontent.com/33237270/134787877-1fca2485-e891-4186-
 
 **Step 6** : Flux controller detects changes in deployment repo repository and apply them to the workload running in the cluster.
 
-## Repositories
-
-| Link                                                            | Description           |
-| --------------------------------------------------------------- | --------------------- |
-| [Repo Link](https://github.com/ansnoussi/gitops-example-app)    | Example GitOps App    |
-| [Repo Link](https://github.com/ansnoussi/gitops-example-deploy) | Example GitOps Deploy |
-| [Repo Link](https://github.com/ansnoussi/gitops-example-infra/) | Example GitOps Infra  |
 
 ## Provision Cluster (GCP)
 
